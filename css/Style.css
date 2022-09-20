@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+
+/* HEADER SUPERIOR*/
+.HeaderSuperior {
+    font-size: 10px;
+    height: 100% 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center; /* Centra el contenido */
+    justify-content: space-between; /*Crea un espacio entre los items, enviándolos a los extremos de la página*/
+    max-width: 1024px;
+    margin:auto; /*Aplica automáticamente los mismos márgenes a la izda y drcha*/
+    padding: 5px 20px;
+}
+
+.GrandesOfertas {
+    position: relative;
+    left: 90px;
+}
+
+.NavHeaderSup > ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+ }
+
+ .NavHeaderSup > ul > li {
+    padding: 0px 15px;
+ }
+ 
+
+ /*HEADER INFERIOR*/
+.HeaderInferior {
+    font-size: 10px;
+    height: 62px;
+    color: white;
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center; /* Centra el contenido, o lo distribuye de manera equilibrada */
+    justify-content: space-between; /*Crea un espacio entre los items, enviándolos a los extremos de la página*/
+    max-width: 1024px;
+    margin:auto; /*Aplica automáticamente los mismos márgenes a la izda y drcha*/
+    padding: 5px 20px;
+    position: sticky;
+    top: 82px;
+}
+
+#FrontCatDog {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+p#Front {
+    color: #3C2313;
+    font-weight: 700;
+    font-size: 20px;
+   
+}
+
+#CatDog {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10x 10px 10px;
+    margin: 0px 4px;
+}
+
+.NavHeaderInf > ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+
+.NavHeaderInf > ul > li {
+    padding: 10px 12px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/*Div plato de fondo*/
+.FondoPlato {
+    max-width: 1024px;
+    margin: auto;
+    background-image: url(/PetShop/img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 84px;
+    height: 409px;
+}
+
+.FondoPlato>div {
+    width: 365px;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+
+
+#EsUnPlacer {
+    color: #3C2313;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#ComederosDescuento {
+    text-align: center;
+    color: #3C2313;
+    padding: 12px 1px;
+}
+
+#COMEDEROS {
+    position: relative;
+    left: 30%;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    padding: 15px 23px;
+    width: 141px;
+}
+
+
+/* CENTRO BLANCO */
+
+.CentroBlanco {
+    background-color: white;
+    max-width: 1024px;
+    margin: auto;
+}
+
+#ProductosDestacados {
+    position: relative;
+    top: 140px;
+    left: 15px;
+    margin: auto;
+}
+
+#paw {
+    font-size: 60px;
+    color: #F0A83E;
+    text-align: center;
+}
+
+#ProdDest {
+    font-size: 40px;
+    text-align: center;
+    padding: 9.51px 0px 0px 0px;
+}
+
+#ComederosAC {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.items  {  
+    max-width: 1025px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 190px 0px 123px;
+}
+
+div.items>div {
+    padding: 0px 20px;
+}
+
+div.items>div>img {
+    width: 262.03px;
+    padding: 0px 0px 45.14px;
+    background-color: #FBFAF6;
+}
+
+div.items>div>p {
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    background-color: #FBFAF6;
+}
+
+#precios {
+    color: #F0A83E;
+}
+
+.form1 {
+    position: relative;
+    top: -78px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form1>form>p {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.campos {
+    color: #FBFAF6;
+    font-weight: 400;
+    font-size: 9px;
+    background-color: #3C2313;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 9px;
+    height: 40px;
+    width: 340px;
+    padding-left:20px ;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    border-style: none;
+
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+button.enviar {
+    font-size: 16px;
+    font-weight: 400;
+    border-style: none;
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    border-radius: 15px;
+    height: 34px;
+    width: 110px;
+    height: 34px;
+    position: relative;
+    top: 40px;
+}
+
+button.resetear {
+    font-size: 16px;
+    font-weight: 400;
+    border-style: none;
+    color: #FFFFFF;
+    background-color: #8A8787;
+    border-radius: 15px;
+    height: 34px;
+    width: 110px;
+    height: 34px;
+    position: relative;
+    top: 40px;
+}
+
+
+/*BARRA DE SUSCRIPCIÓN*/
+.suscríbete {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    padding: 17px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    top: 75px;
+}
+
+.suscripción>form {
+    position: relative;
+    bottom: -26px;
+    display: flex;
+    margin: auto;
+    justify-content: right;
+    max-width: 1024px;
+    padding-right: 20px;
+}
+
+.suscripción>form>input {
+    width: 271px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    position: relative;
+    right: 10px;
+    padding-left: 12px;
+}
+
+.suscripción>form>button {
+    border-radius: 15px;
+    border-style: none;
+    padding: 10px;
+    background-color: #3C2313;
+    font-size: 10px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.suscripción>form>::placeholder {
+    color: #A0A0A0;
+}
